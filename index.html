@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="icon" href="images/weather.png">
+</head>
+
+<body onload="showIpAddress()">
+    <main>
+        <div class="row" style="text-align: center;">
+            <form action="">
+                <p id="ip-address"></p>
+                <!-- <p id="location"></p> -->
+                <input type="search" id="search" placeholder="Search by city name">
+            </form>
+        </div>
+        <div class="row" id="weather">
+        </div>
+        <footer>
+            <div class="bottom-container">
+                <p style="text-align: center; color: black;"><strong>Api Used Is<a href="https://openweathermap.org/" target="_blank" style="color: white;">OpenWeather</a></strong></p>
+                <p style="text-align: center; color: black;"><strong>©All-Rights-Reserved<a href="https://github.com/akhilathuluri" target="_blank" style="color: white;">Athuluri Akhil</a></strong></p>
+            </div>
+        </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
